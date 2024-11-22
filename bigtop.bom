@@ -41,8 +41,8 @@
      'scala' { version = '2.10.4'; version_base = version }
    }
    apache { // *required* These shoudn't be modified unless ASF Infra demands changes
-     APACHE_MIRROR = "https://apache.osuosl.org"
-     APACHE_ARCHIVE = "https://archive.apache.org/dist"
+     APACHE_MIRROR = "https://nexus-rm.rework-space.com/repository/apache_osuosl/"
+     APACHE_ARCHIVE = "https://nexus-rm.rework-space.com/repository/apache_archive/"
    }
    git { // *optional* This is a global setting to access protected git repositories,
          //            can be specified per component as well
@@ -104,8 +104,8 @@ bigtop {
     'scala' { version = '2.12.13'; version_base = version }
   }
   apache {
-    APACHE_MIRROR = "https://apache.osuosl.org"
-    APACHE_ARCHIVE = "https://archive.apache.org/dist"
+    APACHE_MIRROR = "https://nexus-rm.rework-space.com/repository/apache_osuosl/"
+    APACHE_ARCHIVE = "https://nexus-rm.rework-space.com/repository/apache_archive/"
   }
 /** End of Base Configuration */
 
